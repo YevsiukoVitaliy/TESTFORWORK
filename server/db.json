@@ -2,15 +2,15 @@
   "hash": [
     {
       "id": 1,
-      "data": "15.07.22",
-    "time":"12:35",
-      "number":"Н-00214",
+      "data": "17.07.22",
+    "time":"12:34",
+      "number":"Н-031214",
       "composition":"Главный",
       "provider":"Monsters Inc.",
       "name": "Вачовский М.В.",
-      "price": 136,
+      "price": "1336",
       "status":"Проведён",
-      "comment":"Вентиляция налажена"
+      "comment":"Рыбацкое снаряжение"
     },
     {
       "id": 2,
@@ -20,55 +20,55 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
-      "status":"Удалить",
+      "price": "1224",
+      "status":"Проведён",
       "comment":"Создан ошибочно"
     },
     {
       "id": 3,
-      "data": "29.06.22",
+      "data": "11.4.22",
     "time":"16:46",
     "number":"Р-0154",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
+      "price": "6517",
       "status":"Записан",
       "comment":"Аппарат исправен"
     }, {
       "id": 4,
       "data": "15.07.22",
     "time":"12:35",
-      "number":"Н-00214",
+      "number":"Н-031214",
       "composition":"Главный",
       "provider":"Monsters Inc.",
       "name": "Вачовский М.В.",
-      "price": 136,
+      "price": "136",
       "status":"Проведён",
-      "comment":"Вентиляция налажена"
+      "comment":"Рыбацкое снаряжение"
     },
     {
       "id": 5,
       "data": "12.07.22",
     "time":"16:46",
-    "number":"Н-002054",
+    "number":"Н-0020154",
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
-      "status":"Удалить",
+      "price": "1124",
+      "status":"Проведён",
       "comment":"Создан ошибочно"
     },
     {
       "id": 6,
-      "data": "29.06.22",
+      "data": "11.4.22",
     "time":"16:46",
     "number":"Р-0154",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
-      "status":"Записан",
+      "price": "657",
+      "status":"Проведён",
       "comment":"Аппарат исправен"
     }, {
       "id": 7,
@@ -78,9 +78,9 @@
       "composition":"Главный",
       "provider":"Monsters Inc.",
       "name": "Вачовский М.В.",
-      "price": 136,
+      "price": "136",
       "status":"Проведён",
-      "comment":"Вентиляция налажена"
+      "comment":"Рыбацкое снаряжение"
     },
     {
       "id": 8,
@@ -90,19 +90,19 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
     {
       "id": 9,
-      "data": "29.06.22",
+      "data": "11.4.22",
     "time":"16:46",
     "number":"Р-0154",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
+      "price": "657",
       "status":"Записан",
       "comment":"Аппарат исправен"
     }, {
@@ -113,9 +113,9 @@
       "composition":"Главный",
       "provider":"Monsters Inc.",
       "name": "Вачовский М.В.",
-      "price": 136,
+      "price": "136",
       "status":"Проведён",
-      "comment":"Вентиляция налажена"
+      "comment":"Рыбацкое снаряжение"
     },
     {
       "id": 11,
@@ -125,19 +125,19 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
     {
       "id": 12,
-      "data": "29.06.22",
+      "data": "11.4.22",
     "time":"16:46",
     "number":"Р-0154",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
+      "price": "657",
       "status":"Записан",
       "comment":"Аппарат исправен"
     }, {
@@ -148,7 +148,7 @@
       "composition":"Главный",
       "provider":"Monsters Inc.",
       "name": "Вачовский М.В.",
-      "price": 136,
+      "price": "136",
       "status":"Проведён",
       "comment":"Вентиляция налажена"
     },
@@ -160,19 +160,19 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
     {
       "id": 15,
-      "data": "29.06.22",
+      "data": "11.4.22",
     "time":"16:46",
     "number":"Р-0154",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
+      "price": "657",
       "status":"Записан",
       "comment":"Аппарат исправен"
     }, {
@@ -183,7 +183,7 @@
       "composition":"Главный",
       "provider":"Monsters Inc.",
       "name": "Вачовский М.В.",
-      "price": 136,
+      "price": "136",
       "status":"Проведён",
       "comment":"Вентиляция налажена"
     },
@@ -195,21 +195,21 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
     {
       "id": 18,
-      "data": "29.06.22",
+      "data": "11.4.22",
     "time":"16:46",
     "number":"Р-0154",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
+      "price": "657",
       "status":"Записан",
-      "comment":"Аппарат исправен"
+      "comment":"Аппарат не исправен"
     }, {
       "id": 19,
       "data": "15.07.22",
@@ -218,7 +218,7 @@
       "composition":"Главный",
       "provider":"Monsters Inc.",
       "name": "Вачовский М.В.",
-      "price": 136,
+      "price": "136",
       "status":"Проведён",
       "comment":"Вентиляция налажена"
     },
@@ -230,21 +230,21 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
     {
       "id": 21,
-      "data": "29.06.22",
+      "data": "11.4.22",
     "time":"16:46",
-    "number":"Р-0154",
+    "number":"Р-73428",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
+      "price": "657",
       "status":"Записан",
-      "comment":"Аппарат исправен"
+      "comment":"Аппарат не исправен"
     }, {
       "id": 22,
       "data": "15.07.22",
@@ -253,7 +253,7 @@
       "composition":"Главный",
       "provider":"Monsters Inc.",
       "name": "Вачовский М.В.",
-      "price": 136,
+      "price": "136",
       "status":"Проведён",
       "comment":"Вентиляция налажена"
     },
@@ -265,7 +265,7 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
@@ -273,13 +273,13 @@
       "id": 24,
       "data": "29.06.22",
     "time":"16:46",
-    "number":"Р-0154",
+    "number":"Р-73428",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
+      "price": "657",
       "status":"Записан",
-      "comment":"Аппарат исправен"
+      "comment":"Аппарат не исправен"
     }, {
       "id": 25,
       "data": "15.07.22",
@@ -288,7 +288,7 @@
       "composition":"Главный",
       "provider":"Monsters Inc.",
       "name": "Вачовский М.В.",
-      "price": 136,
+      "price": "136",
       "status":"Проведён",
       "comment":"Вентиляция налажена"
     },
@@ -300,7 +300,7 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
@@ -308,13 +308,13 @@
       "id": 27,
       "data": "29.06.22",
     "time":"16:46",
-    "number":"Р-0154",
+    "number":"Р-73428",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
+      "price": "657",
       "status":"Записан",
-      "comment":"Аппарат исправен"
+      "comment":"Аппарат не исправен"
     }, {
       "id": 28,
       "data": "15.07.22",
@@ -323,7 +323,7 @@
       "composition":"Главный",
       "provider":"Monsters Inc.",
       "name": "Вачовский М.В.",
-      "price": 136,
+      "price": "136",
       "status":"Проведён",
       "comment":"Вентиляция налажена"
     },
@@ -335,7 +335,7 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
@@ -343,13 +343,13 @@
       "id": 30,
       "data": "29.06.22",
     "time":"16:46",
-    "number":"Р-0154",
+    "number":"Р-73428",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
+      "price": "657",
       "status":"Записан",
-      "comment":"Аппарат исправен"
+      "comment":"Аппарат не исправен"
     }, {
       "id": 31,
       "data": "15.07.22",
@@ -358,7 +358,7 @@
       "composition":"Главный",
       "provider":"Monsters Inc.",
       "name": "Вачовский М.В.",
-      "price": 136,
+      "price": "136",
       "status":"Проведён",
       "comment":"Вентиляция налажена"
     },
@@ -370,7 +370,7 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
@@ -378,13 +378,13 @@
       "id": 33,
       "data": "29.06.22",
     "time":"16:46",
-    "number":"Р-0154",
+    "number":"Р-73428",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
+      "price": "657",
       "status":"Записан",
-      "comment":"Аппарат исправен"
+      "comment":"Аппарат не исправен"
     }, {
       "id": 34,
       "data": "15.07.22",
@@ -393,7 +393,7 @@
       "composition":"Главный",
       "provider":"Monsters Inc.",
       "name": "Вачовский М.В.",
-      "price": 136,
+      "price": "136",
       "status":"Проведён",
       "comment":"Вентиляция налажена"
     },
@@ -405,7 +405,7 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
@@ -413,13 +413,13 @@
       "id": 36,
       "data": "29.06.22",
     "time":"16:46",
-    "number":"Р-0154",
+    "number":"Р-73428",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
+      "price": "657",
       "status":"Записан",
-      "comment":"Аппарат исправен"
+      "comment":"Аппарат не исправен"
     }, {
       "id": 37,
       "data": "15.07.22",
@@ -428,7 +428,7 @@
       "composition":"Главный",
       "provider":"Monsters Inc.",
       "name": "Вачовский М.В.",
-      "price": 136,
+      "price": "136",
       "status":"Проведён",
       "comment":"Вентиляция налажена"
     },
@@ -440,7 +440,7 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
@@ -448,102 +448,102 @@
       "id": 39,
       "data": "29.06.22",
     "time":"16:46",
-    "number":"Р-0154",
+    "number":"Р-73428",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
+      "price": "657",
       "status":"Записан",
-      "comment":"Аппарат исправен"
+      "comment":"Аппарат не исправен"
     },{
       "id": 40,
       "data": "29.06.22",
-    "time":"16:46",
-    "number":"Р-0154",
+    "time":"22:46",
+    "number":"Р-73428",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
+      "price": "657",
       "status":"Записан",
       "comment":"Аппарат исправен"
     },
     {
       "id": 41,
       "data": "29.06.22",
-    "time":"16:46",
+    "time":"22:46",
     "number":"Р-0154",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
-      "status":"Записан",
+      "price": "232",
+      "status":"Удалить",
       "comment":"Аппарат исправен"
     },
     {
       "id": 42,
       "data": "29.06.22",
-    "time":"16:46",
+    "time":"22:46",
     "number":"Р-0154",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
-      "status":"Записан",
+      "price": "232",
+      "status":"Удалить",
       "comment":"Аппарат исправен"
     },{
       "id": 43,
       "data": "29.06.22",
-    "time":"16:46",
+    "time":"22:46",
     "number":"Р-0154",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
-      "status":"Записан",
+      "price": "232",
+      "status":"Удалить",
       "comment":"Аппарат исправен"
     },{
       "id": 44,
       "data": "29.06.22",
-    "time":"16:46",
+    "time":"22:46",
     "number":"Р-0154",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
-      "status":"Записан",
+      "price": "232",
+      "status":"Удалить",
       "comment":"Аппарат исправен"
     },{
       "id": 45,
       "data": "29.06.22",
-    "time":"16:46",
+    "time":"22:46",
     "number":"Р-0154",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
-      "status":"Записан",
+      "price": "232",
+      "status":"Удалить",
       "comment":"Аппарат исправен"
     },{
       "id": 46,
-      "data": "29.06.22",
+      "data": "11.4.22",
     "time":"16:46",
     "number":"Р-0154",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
-      "status":"Записан",
+      "price": "232",
+      "status":"Удалить",
       "comment":"Аппарат исправен"
     },{
       "id": 47,
-      "data": "29.06.22",
+      "data": "11.4.22",
     "time":"16:46",
     "number":"Р-0154",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
-      "status":"Записан",
+      "price": "232",
+      "status":"Удалить",
       "comment":"Аппарат исправен"
     },
     {
@@ -554,7 +554,7 @@
       "composition":"Главный",
       "provider":"Monsters Inc.",
       "name": "Вачовский М.В.",
-      "price": 136,
+      "price": "136",
       "status":"Проведён",
       "comment":"Вентиляция налажена"
     },
@@ -566,7 +566,7 @@
       "composition":"Главный",
       "provider":"Monsters Inc.",
       "name": "Вачовский М.В.",
-      "price": 136,
+      "price": "136",
       "status":"Проведён",
       "comment":"Вентиляция налажена"
     },
@@ -578,7 +578,7 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
@@ -590,7 +590,7 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "213",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
@@ -602,7 +602,7 @@
       "composition":"Главный",
       "provider":"Monsters Inc.",
       "name": "Вачовский М.В.",
-      "price": 136,
+      "price": "44",
       "status":"Проведён",
       "comment":"Вентиляция налажена"
     },
@@ -614,7 +614,7 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
@@ -626,7 +626,7 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
@@ -638,7 +638,7 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
@@ -650,7 +650,7 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
@@ -662,7 +662,7 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
@@ -674,7 +674,7 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
@@ -686,21 +686,65 @@
     "composition":"Шоурум",
     "provider":"Umbrella Ind.",
       "name": "Валентайн Д.Н.",
-      "price": 1224,
+      "price": "1224",
       "status":"Удалить",
       "comment":"Создан ошибочно"
     },
     {
       "id": 60,
-      "data": "29.06.22",
+      "data": "11.4.22",
     "time":"16:46",
     "number":"Р-0154",
     "composition":"Гараж",
     "provider":"Altair Corp.",
       "name": "Аудиторе Э.Ф.",
-      "price": 657,
-      "status":"Записан",
+      "price": "232",
+      "status":"Проведён",
       "comment":"Аппарат исправен"
+    },{
+      "id": 61,
+      "data": "15.07.22",
+    "time":"12:35",
+      "number":"Н-00214",
+      "composition":"Главный",
+      "provider":"Monsters Inc.",
+      "name": "Вачовский М.В.",
+      "price": "136",
+      "status":"Проведён",
+      "comment":"Рыбацкое снаряжение"
+    },{
+      "id": 62,
+      "data": "12.07.22",
+    "time":"16:46",
+    "number":"Н-002054",
+    "composition":"Шоурум",
+    "provider":"Umbrella Ind.",
+      "name": "Валентайн Д.Н.",
+      "price": "1224",
+      "status":"Удалить",
+      "comment":"Создан ошибочно"
+    },{
+      "id": 63,
+      "data": "15.07.22",
+    "time":"12:35",
+      "number":"Н-00214",
+      "composition":"Главный",
+      "provider":"Monsters Inc.",
+      "name": "Вачовский М.В.",
+      "price": "136",
+      "status":"Записан",
+      "comment":"Рыбацкое снаряжение"
+    },{
+      "id": 64,
+      "data": "15.07.22",
+    "time":"12:35",
+      "number":"Н-00214",
+      "composition":"Главный",
+      "provider":"Monsters Inc.",
+      "name": "Вачовский М.В.",
+      "price": "136",
+      "status":"Записан",
+      "comment":"Рыбацкое снаряжение"
     }
   ]
 }

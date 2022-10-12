@@ -13,7 +13,6 @@ export default class App extends PureComponent {
     fulfilledStatus: [],
     deleteStatus: [],
     saveStatus: [],
-    servicesItem: [],
     loading: false,
     countriesPerPage: 12,
     page: 1,
@@ -21,42 +20,40 @@ export default class App extends PureComponent {
     firstCountryIndex: null,
     currentPage: [],
     activeModal: false,
-    search: 'Удалить',
+    search: '',
     statusKey: 'status',
+    statusKeyMap: {
+      number: '',
+      composition: '',
+      provider: '',
+      name: '',
+      price: '',
+      status: '',
+      comment: '',
+    },
     keyDataKey: [],
     valueDate: [],
+    servicesItem: [],
+    keyDataNewKey: [],
   };
+
   componentDidMount() {
+    const selectedFilterKeys = Object.keys(this.state.statusKeyMap);
     try {
       fetch('http://localhost:3002/hash')
         .then(res => res.json())
         .then(data => {
-          data.map(keyData => {
-            let keys = Object.keys(keyData);
-            for (var i = 0, l = keys.length; i < l; i++) {
-              if (this.state.statusKey === keys[i]) {
-                if (keyData[keys[i]].includes(this.state.search)) {
-                  this.setState(prev => ({
-                    keyDataKey: [...prev.keyDataKey, keyData],
-                    servicesItem: [...this.state.keyDataKey],
-                  }));
-                  this.setState(prev => ({
-                    fulfilledStatus: prev.servicesItem.filter(
-                      e => e.status === keyData[keys[i]]
-                    ),
-                    lastCountryIndex: prev.page * prev.countriesPerPage,
-                    firstCountryIndex:
-                      prev.page * prev.countriesPerPage - prev.countriesPerPage,
-                    currentPage: prev.servicesItem.slice(
-                      prev.firstCountryIndex,
-                      prev.lastCountryIndex
-                    ),
-                    loading: false,
-                  }));
-                }
-              }
-            }
+          const filteredInvoices = data.filter(invoice =>
+            selectedFilterKeys.every(key =>
+              invoice[key].includes(this.state.statusKeyMap[key])
+            )
+          );
+          this.setState({
+            servicesItem: [...filteredInvoices],
           });
+          this.allStatus();
+          this.navigationFn();
+          this.setState({ loading: false });
         });
     } catch (error) {
       console.log(error);
@@ -64,6 +61,52 @@ export default class App extends PureComponent {
       this.setState({ loading: true });
     }
   }
+  allStatus = () => {
+    this.setState({
+      fulfilledStatus: this.state.servicesItem.filter(
+        e => e.status === 'Проведён'
+      ),
+      deleteStatus: this.state.servicesItem.filter(e => e.status === 'Удалить'),
+      saveStatus: this.state.servicesItem.filter(e => e.status === 'Записан'),
+    });
+  };
+
+  navigationFn = () => {
+    this.setState(prev => ({
+      lastCountryIndex: prev.page * prev.countriesPerPage,
+      firstCountryIndex:
+        prev.page * prev.countriesPerPage - prev.countriesPerPage,
+      currentPage: prev.servicesItem.slice(
+        prev.firstCountryIndex,
+        prev.lastCountryIndex
+      ),
+    }));
+  };
+
+  handleSubmit = statusKeyMapArg => {
+    const selectedFilterKeys = Object.keys(statusKeyMapArg);
+    try {
+      fetch('http://localhost:3002/hash')
+        .then(res => res.json())
+        .then(data => {
+          const filteredInvoices = data.filter(invoice =>
+            selectedFilterKeys.every(key =>
+              invoice[key].includes(statusKeyMapArg[key])
+            )
+          );
+          this.setState({
+            servicesItem: [...filteredInvoices],
+          });
+          this.allStatus();
+          this.navigationFn();
+          this.setState({ loading: false });
+        });
+    } catch (error) {
+      console.log(error);
+    } finally {
+      this.setState({ loading: true });
+    }
+  };
 
   componentDidUpdate(prevProps, prevState) {
     const { page } = this.state;
@@ -72,25 +115,13 @@ export default class App extends PureComponent {
         fetch('http://localhost:3002/hash')
           .then(res => res.json())
           .then(data => {
-            data.map(keyData => {
+            Array.prototype.map.call(data, keyData => {
               let keys = Object.keys(keyData);
               for (var i = 0, l = keys.length; i < l; i++) {
                 if (this.state.statusKey === keys[i]) {
                   if (keyData[keys[i]].includes(this.state.search)) {
-                    this.setState(prev => ({
-                      fulfilledStatus: prev.servicesItem.filter(
-                        e => e.status === keyData[keys[i]]
-                      ),
-                      lastCountryIndex: prev.page * prev.countriesPerPage,
-                      firstCountryIndex:
-                        prev.page * prev.countriesPerPage -
-                        prev.countriesPerPage,
-                      currentPage: prev.servicesItem.slice(
-                        prev.firstCountryIndex,
-                        prev.lastCountryIndex
-                      ),
-                      loading: false,
-                    }));
+                    this.navigationFn();
+                    this.setState({ loading: false });
                   }
                 }
               }
@@ -103,6 +134,7 @@ export default class App extends PureComponent {
       }
     }
   }
+
   paginate = pageNumber => this.setState({ page: pageNumber });
   nextPage = () => this.setState(prev => ({ page: prev.page + 1 }));
   prevPage = () => this.setState(prev => ({ page: prev.page - 1 }));
@@ -153,12 +185,13 @@ export default class App extends PureComponent {
       switchFuncIcon,
       paginate,
       switchFuncColor,
+      handleSubmit,
       nextPage,
       prevPage,
     } = this;
     return (
       <div className="main">
-        <SearshForm>
+        <SearshForm handleSubmit={handleSubmit}>
           <InfoForm setActiveOpenFn={setActiveFn} />
         </SearshForm>
         <FormList
