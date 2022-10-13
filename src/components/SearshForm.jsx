@@ -6,7 +6,17 @@ import React, { Component } from 'react';
 
 export default class SearshForm extends Component {
   state = {
-    statusKeyMap: {
+    number: '',
+    composition: '',
+    provider: '',
+    name: '',
+    price: '',
+    status: '',
+    comment: '',
+  };
+
+  clearBtn = () => {
+    this.setState({
       number: '',
       composition: '',
       provider: '',
@@ -14,36 +24,23 @@ export default class SearshForm extends Component {
       price: '',
       status: '',
       comment: '',
-    },
+    });
   };
-
-  // clearBtn = () => {
-  //   this.setState(() => ({
-  //     statusKeyMap: {
-  //       number: '',
-  //       composition: '',
-  //       provider: '',
-  //       name: '',
-  //       price: '',
-  //       status: '',
-  //       comment: '',
-  //     },
-  //   }));
-  // };
   handleSubmit = evt => {
     evt.preventDefault();
-    this.props.handleSubmit(this.state.statusKeyMap);
+    this.props.handleSubmit(this.state);
+    this.clearBtn();
   };
 
   handleChange = evt => {
     const { name, value } = evt.target;
-    this.setState({ statusKeyMap: { [name]: value } });
+    this.setState({ [name]: value });
   };
 
   render() {
     const { composition, provider, name, number, price, status, comment } =
       this.state;
-    const { handleSubmit, handleChange } = this;
+    const { handleSubmit, clearBtn, handleChange } = this;
     return (
       <div style={{ width: '386px' }}>
         {this.props.children}
@@ -195,7 +192,7 @@ export default class SearshForm extends Component {
             <input
               type="button"
               value="Очистить"
-              // onClick={() => clearBtn()}
+              onClick={() => clearBtn()}
               className={css.deleteSearch}
             />
             <button disabled>

@@ -51,7 +51,7 @@ export default class App extends PureComponent {
           this.setState({
             servicesItem: [...filteredInvoices],
           });
-          this.allStatus();
+          this.allStatus(filteredInvoices);
           this.navigationFn();
           this.setState({ loading: false });
         });
@@ -61,13 +61,11 @@ export default class App extends PureComponent {
       this.setState({ loading: true });
     }
   }
-  allStatus = () => {
+  allStatus = filteredInvoices => {
     this.setState({
-      fulfilledStatus: this.state.servicesItem.filter(
-        e => e.status === 'Проведён'
-      ),
-      deleteStatus: this.state.servicesItem.filter(e => e.status === 'Удалить'),
-      saveStatus: this.state.servicesItem.filter(e => e.status === 'Записан'),
+      fulfilledStatus: filteredInvoices.filter(e => e.status === 'Проведён'),
+      deleteStatus: filteredInvoices.filter(e => e.status === 'Удалить'),
+      saveStatus: filteredInvoices.filter(e => e.status === 'Записан'),
     });
   };
 
@@ -84,6 +82,7 @@ export default class App extends PureComponent {
   };
 
   handleSubmit = statusKeyMapArg => {
+    this.setState({ page: 1 });
     const selectedFilterKeys = Object.keys(statusKeyMapArg);
     try {
       fetch('http://localhost:3002/hash')
@@ -97,7 +96,7 @@ export default class App extends PureComponent {
           this.setState({
             servicesItem: [...filteredInvoices],
           });
-          this.allStatus();
+          this.allStatus(filteredInvoices);
           this.navigationFn();
           this.setState({ loading: false });
         });
