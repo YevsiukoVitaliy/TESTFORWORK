@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/TESTFORWORK/static/css/main.3a68bbc6.css",
-    "main.js": "/TESTFORWORK/static/js/main.5c3609bd.js",
-    "static/media/setting.svg": "/TESTFORWORK/static/media/setting.b29a795530c1d9e009b138a20b2c2150.svg",
-    "static/media/groups.svg": "/TESTFORWORK/static/media/groups.fbea0bbcfd14e21875a0aceacd10bc1d.svg",
-    "static/media/biPin.svg": "/TESTFORWORK/static/media/biPin.4af862f00b789e9178dcf6e25a72b7a0.svg",
-    "static/media/biX.svg": "/TESTFORWORK/static/media/biX.439f9adf6443e324112d0d582c547bec.svg",
-    "static/media/upArrow.svg": "/TESTFORWORK/static/media/upArrow.2188016671e838d36c0748dec688eb42.svg",
-    "static/media/mark.svg": "/TESTFORWORK/static/media/mark.e8814b449e2f3d9ebaa7dfc0f998d1b3.svg",
-    "static/media/arrowDown.svg": "/TESTFORWORK/static/media/arrowDown.9be54a23003e2c54359329ddf0b54632.svg",
-    "static/media/vectorLine.svg": "/TESTFORWORK/static/media/vectorLine.d0172ce7c5a4f767885d61b2eee49e0b.svg",
-    "static/media/checkMarkGreen.svg": "/TESTFORWORK/static/media/checkMarkGreen.efdac034f4f14c9e9f6bd2f269a3266e.svg",
-    "static/media/callendar.svg": "/TESTFORWORK/static/media/callendar.34ca35d1f2618c121442.svg",
-    "index.html": "/TESTFORWORK/index.html",
-    "main.3a68bbc6.css.map": "/TESTFORWORK/static/css/main.3a68bbc6.css.map",
-    "main.5c3609bd.js.map": "/TESTFORWORK/static/js/main.5c3609bd.js.map"
+    "main.css": "/testforwor/static/css/main.58460860.css",
+    "main.js": "/testforwor/static/js/main.f829028e.js",
+    "static/media/setting.svg": "/testforwor/static/media/setting.b29a795530c1d9e009b138a20b2c2150.svg",
+    "static/media/groups.svg": "/testforwor/static/media/groups.fbea0bbcfd14e21875a0aceacd10bc1d.svg",
+    "static/media/biPin.svg": "/testforwor/static/media/biPin.4af862f00b789e9178dcf6e25a72b7a0.svg",
+    "static/media/biX.svg": "/testforwor/static/media/biX.439f9adf6443e324112d0d582c547bec.svg",
+    "static/media/upArrow.svg": "/testforwor/static/media/upArrow.2188016671e838d36c0748dec688eb42.svg",
+    "static/media/mark.svg": "/testforwor/static/media/mark.e8814b449e2f3d9ebaa7dfc0f998d1b3.svg",
+    "static/media/arrowDown.svg": "/testforwor/static/media/arrowDown.9be54a23003e2c54359329ddf0b54632.svg",
+    "static/media/vectorLine.svg": "/testforwor/static/media/vectorLine.d0172ce7c5a4f767885d61b2eee49e0b.svg",
+    "static/media/checkMarkGreen.svg": "/testforwor/static/media/checkMarkGreen.efdac034f4f14c9e9f6bd2f269a3266e.svg",
+    "static/media/callendar.svg": "/testforwor/static/media/callendar.34ca35d1f2618c121442.svg",
+    "index.html": "/testforwor/index.html",
+    "main.58460860.css.map": "/testforwor/static/css/main.58460860.css.map",
+    "main.f829028e.js.map": "/testforwor/static/js/main.f829028e.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a68bbc6.css",
-    "static/js/main.5c3609bd.js"
+    "static/css/main.58460860.css",
+    "static/js/main.f829028e.js"
   ]
 }
