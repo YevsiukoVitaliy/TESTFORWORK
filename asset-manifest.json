@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TESTFORWORK/static/css/main.3a68bbc6.css",
-    "main.js": "/TESTFORWORK/static/js/main.e30a2870.js",
+    "main.js": "/TESTFORWORK/static/js/main.8ed5c653.js",
     "static/media/setting.svg": "/TESTFORWORK/static/media/setting.b29a795530c1d9e009b138a20b2c2150.svg",
     "static/media/groups.svg": "/TESTFORWORK/static/media/groups.fbea0bbcfd14e21875a0aceacd10bc1d.svg",
     "static/media/biPin.svg": "/TESTFORWORK/static/media/biPin.4af862f00b789e9178dcf6e25a72b7a0.svg",
@@ -14,10 +14,10 @@
     "static/media/callendar.svg": "/TESTFORWORK/static/media/callendar.34ca35d1f2618c121442.svg",
     "index.html": "/TESTFORWORK/index.html",
     "main.3a68bbc6.css.map": "/TESTFORWORK/static/css/main.3a68bbc6.css.map",
-    "main.e30a2870.js.map": "/TESTFORWORK/static/js/main.e30a2870.js.map"
+    "main.8ed5c653.js.map": "/TESTFORWORK/static/js/main.8ed5c653.js.map"
   },
   "entrypoints": [
     "static/css/main.3a68bbc6.css",
-    "static/js/main.e30a2870.js"
+    "static/js/main.8ed5c653.js"
   ]
 }
