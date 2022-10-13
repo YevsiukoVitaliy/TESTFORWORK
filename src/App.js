@@ -40,7 +40,7 @@ export default class App extends PureComponent {
   componentDidMount() {
     const selectedFilterKeys = Object.keys(this.state.statusKeyMap);
     try {
-      fetch('http://localhost:3002/hash')
+      fetch('https://6347f045db76843976b6460d.mockapi.io/hash')
         .then(res => res.json())
         .then(data => {
           const filteredInvoices = data.filter(invoice =>
@@ -85,7 +85,7 @@ export default class App extends PureComponent {
     this.setState({ page: 1 });
     const selectedFilterKeys = Object.keys(statusKeyMapArg);
     try {
-      fetch('http://localhost:3002/hash')
+      fetch('https://6347f045db76843976b6460d.mockapi.io/hash')
         .then(res => res.json())
         .then(data => {
           const filteredInvoices = data.filter(invoice =>
@@ -111,7 +111,7 @@ export default class App extends PureComponent {
     const { page } = this.state;
     if (prevState.page !== page) {
       try {
-        fetch('http://localhost:3002/hash')
+        fetch('https://6347f045db76843976b6460d.mockapi.io/hash')
           .then(res => res.json())
           .then(data => {
             Array.prototype.map.call(data, keyData => {
