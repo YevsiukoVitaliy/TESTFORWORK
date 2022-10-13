@@ -1,8 +1,8 @@
 {
-  "name": "TESTFORWORK",
+  "name": "testforwor",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://YevsiukoVitaliy.github.io/TESTFORWORK/",
+  "homepage": "https://YevsiukoVitaliy.github.io/testforwor/",
   "dependencies": {
     "@datepicker-react/hooks": "^2.8.4",
     "@datepicker-react/styled": "^2.8.4",
@@ -27,8 +27,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "server": "json-server -w server/db.json -p 3002"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
